@@ -9,8 +9,8 @@ const app = express();
 // CORS Configuration (ngrok only)
 // ----------------------
 const allowedOrigins = [
-  "http://localhost:5173", // local dev frontend
-  "https://proarmy-tammara-thermogenic.ngrok-free.dev/api/pesapal/ipn" // replace with your ngrok URL, e.g., https://abcd-1234.ngrok.io
+  "https://movies-whuw.onrender.com", // live URL//
+  "http://localhost:5175", // locat frontened dev//
 ];
 
 const corsOptions = {
@@ -38,7 +38,7 @@ const BASE_URL = "https://pay.pesapal.com/v3/api";
 const IPN_ID = "3db0823c-0eb7-4a4e-b477-db1e72aa1bb1";
 
 // Use ngrok callback URL
-const LIVE_CALLBACK_URL = "https://proarmy-tammara-thermogenic.ngrok-free.dev/api/pesapal/ipn";
+const LIVE_CALLBACK_URL = "https://pesapesa.onrender.com/api/pesapal/ipn";
 
 let accessToken = null;
 

@@ -10,7 +10,7 @@ const app = express();
 // ----------------------
 const allowedOrigins = [
   "https://movies-whuw.onrender.com", // live URL//
-  "http://localhost:5175", // locat frontened dev//
+  "http://localhost:5173", // locat frontened dev//
 ];
 
 const corsOptions = {
